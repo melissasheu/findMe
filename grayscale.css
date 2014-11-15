@@ -130,6 +130,7 @@ a:hover, a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background: no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -149,6 +150,31 @@ a:hover, a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 @media(min-width:767px) {
